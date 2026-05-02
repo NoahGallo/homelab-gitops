@@ -1,0 +1,6 @@
+replicaCount: 1
+
+# CRDs are managed by the Helm chart
+crds:
+  createClusterExternalSecret: true
+  createClusterSecretStore: true
