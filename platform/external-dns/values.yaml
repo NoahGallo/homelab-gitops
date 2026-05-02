@@ -8,6 +8,7 @@ registry: noop
 
 extraArgs:
   - --pihole-server=http://192.168.178.253
+  - --pihole-api-version=6
 
 env:
   - name: EXTERNAL_DNS_PIHOLE_PASSWORD
